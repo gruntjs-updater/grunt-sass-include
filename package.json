@@ -1,0 +1,42 @@
+{
+  "name": "grunt-sass-include",
+  "description": "Include sass files into a single file, so you can dynamically import new files",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jchn/grunt-sass-include",
+  "author": {
+    "name": "John van de Water",
+    "email": "john.vd.water85@gmail.com",
+    "url": "http://johnvandewater.nl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jchn/grunt-sass-include.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jchn/grunt-sass-include/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jchn/grunt-sass-include/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
