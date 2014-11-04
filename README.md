@@ -1,6 +1,4 @@
-# grunt-sass-include
-
-[![Build Status](https://travis-ci.org/jchn/grunt-sass-include.svg?branch=master)](https://travis-ci.org/jchn/grunt-sass-include)
+# grunt-sass-include [![Build Status](https://travis-ci.org/jchn/grunt-sass-include.svg?branch=master)](https://travis-ci.org/jchn/grunt-sass-include)
 
 > Include sass files into a single file, so you can dynamically import new files
 
