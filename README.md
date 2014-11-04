@@ -2,6 +2,10 @@
 
 > Include sass files into a single file, so you can dynamically import new files
 
+### Motivation
+
+This plugin is made because you cannot import globs inside of sass. This plugin will let you do the globbing in grunt which will generate a sass file with all the separate imports in sass. Both sass and scss syntaxes are supported. You can then import this file inside of your main sass file.
+
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
 
@@ -50,7 +54,5 @@ grunt.initConfig({
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
-_(Nothing yet)_
-=======
-grunt-sass-include
-==================
+
+* Nov. 03, 2014 - v0.1.0
